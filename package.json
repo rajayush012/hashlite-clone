@@ -1,0 +1,17 @@
+{
+  "name": "hashlite-clone-project",
+  "version": "1.0.0",
+  "description": "A clone for the Haslite website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ayush Raj, Samriddhi Shrivas, Shreesti Sinha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.12"
+  }
+}
