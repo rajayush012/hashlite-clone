@@ -2,13 +2,58 @@ body{
     font-family: "Lato", sans-serif !important;
 }
 
+#particles-home{
+   height: 100vh;
 
-#firstBox{
-    padding-top: 230px;
+}
+
+.fs{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bg-primary-dark{
+    background: #344880 !important;
+}
+
+#home{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+ .ltext{
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-weight: 300 !important;
+    font-size: 20px !important;
+ }
+
+.htext{
+    font-size: 55px !important;
+    font-weight: 300 !important;
+}
+
+.fs .cont {
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: #fff;
     max-width: 100%;
-    background-color: #344880;
-    color: white;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
+}
+
+.tab{
+    margin-top: 150px;
+    margin-bottom: 180px;
+}
+
+.tsmall{
+    font-size: 13px;
 }
 
 #lowH{
