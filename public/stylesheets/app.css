@@ -112,3 +112,40 @@ body{
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
 }
+.list-unstyled {
+ padding: 20px;
+
+}
+
+h5{
+    font-size: 18px;
+
+}
+
+.liI{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.mb20{
+    margin-bottom: 20px;
+}
+
+.mb30{
+    margin-bottom: 30px;
+}
+
+.fhr{
+    border-top: 2px solid rgba(30, 207, 202,0.05);
+    
+}
+
+footer{
+    background-color: #fbfbfb;
+    padding: 150px;
+}
+.ltt{
+    font-weight: 300 !important;
+    font-size: 20px;
+
+}
