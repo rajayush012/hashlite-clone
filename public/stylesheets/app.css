@@ -175,6 +175,7 @@ h5{
 footer{
     background-color: #fbfbfb;
     padding: 150px;
+    margin-left:0 !important; 
 }
 .ltt{
     font-weight: 300 !important;
@@ -188,3 +189,47 @@ footer{
     font-size: 13px;
 }
 
+.liI1{
+ padding: 10px;
+ font-size: 15px;
+ display: block;
+ border-bottom: 1px solid #eee;
+
+    
+
+}
+.liI2{
+    padding: 10px;
+    font-size: 15px;
+    display: block;
+    border-bottom: 1px solid #eee;
+    border-bottom-color: rgba(255, 255, 255, 0.1) !important;
+       
+}
+
+.thin{
+font-weight: 400;
+font-size: 13px;
+}
+
+.cc{
+height: 727.25px !important;
+background: linear-gradient(215deg, #1ecfca 0%, #9c51f5 70%, #b88ee7 100%);
+}
+
+.cs{
+    height: 685px;
+    margin-top: 20px;
+}
+
+.text-white{
+    color: white;
+}
+
+.icon-small{
+    height: 30px;
+}
+
+.tg{
+color: #d6d6d6 !important;
+}
