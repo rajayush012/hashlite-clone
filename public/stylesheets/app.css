@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 body{
-    font-family: "Lato", sans-serif !important;
+    font-family: 'Lato', sans-serif;
 }
 
 #particles-home{
@@ -35,9 +37,10 @@ body{
     font-size: 20px !important;
  }
 
-.htext{
-    font-size: 55px !important;
-    font-weight: 300 !important;
+.ht{
+    font-weight: lighter !important;
+    font-size: 55px;
+    
 }
 
 .txsmall{
@@ -191,16 +194,16 @@ footer{
 
 .liI1{
  padding: 10px;
- font-size: 15px;
+ font-size: .9rem;
  display: block;
  border-bottom: 1px solid #eee;
-
+color: #818181;
     
 
 }
 .liI2{
     padding: 10px;
-    font-size: 15px;
+    font-size: .9rem;
     display: block;
     border-bottom: 1px solid #eee;
     border-bottom-color: rgba(255, 255, 255, 0.1) !important;
@@ -232,4 +235,38 @@ background: linear-gradient(215deg, #1ecfca 0%, #9c51f5 70%, #b88ee7 100%);
 
 .tg{
 color: #d6d6d6 !important;
+}
+
+.greybg{
+    background-color: #f0f4f7 !important;
+}
+
+.card{
+    border-width: 0px !important;
+}
+
+.cardhead{
+    color: #46495c !important;
+}
+
+.ico{
+    height: 0.75rem;
+    float: left;
+    margin-top: 5px; 
+    margin-right: 2.5px;
+}
+
+.text-dark-grey{
+    color: rgba(70, 73, 92, 0.5) !important;
+}
+
+.card-header{
+    border-bottom-width: 0 !important;
+}
+
+.value{
+    font-size: 75px;
+    line-height: 1;
+    font-weight: 800;
+    color: #1ecfca;
 }
