@@ -1,10 +1,10 @@
 <% include partials/header %>
 
 <!---navbar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-white navbar-transparent-light navbar-sticky">
+<nav id="nbar" class="navbar shadow-sm fixed-top navbar-expand-lg navbar-light bg-white navbar-transparent-light navbar-sticky">
     <div class="container">
         <a class="navbar-brand" href="/#home">
-            <img src="images/hashlite-logo-small.png" alt="" class="logo-scroll" style="width:200px;height:45px;top:10px;">
+            <img src="https://www.hashlite.io/images/hashlite-logo-small.png" alt="" class="logo-scroll" style="width:200px;height:45px;top:10px;">
             <img src="images/hashlite-logo-small-white.png" alt="" class="logo-trans" style="width:200px;height:45px;top:10px;">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#landingkit-navbar"
@@ -13,9 +13,11 @@
         </button>
 
         <div class="collapse navbar-collapse" id="landingkit-navbar">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+            <ul class="nav navbar-nav ml-auto">
+                <li data-anchor="features" class="nav-item">
+                    <div class="bx">
                     <a class="nav-link" data-scroll="" href="#features">Features</a>
+                </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" data-scroll="" href="#pricing">Pricing</a>
@@ -48,7 +50,7 @@
                 50 GH/S FOR FREE! INVITE</p>
             <p class="lead lm ltext">YOUR FRIENDS, GET 2 GH/S AND 25% OF THEIR MINING HASHPOWER.</p>
             <a class="btn btn-primary btn-lg mt-5 mb-9" href="#" role="button">Explore Features</a>
-            <a class="btn sup btn-primary btn-lg mt-5 mb-9" href="#" role="button">SIGN-UP</a>
+            <a class="btn sup btn-primary btn-lg mt-5 mb-9" href="#" role="button"><img class="ico mr-1" src="icons/play-button.png">SIGN-UP</a>
         </div>
     </div>
 </div>
@@ -65,7 +67,7 @@
 -->
 
 <!---Features-->
-<div class="container ft pt-5 pb-5">
+<div id="features" class="container ft pt-5 pb-5">
     <h6 class="text-center text-muted tsmall">200.000+ REASONS TO CHOOSE US</h6>
     <h3 class="text-center section-title mb-5">Why choose us?</h3>
     <div class="row my-5 pt-5">
@@ -112,10 +114,10 @@
                 </p>
             </span>
             <ul class="list-unstyled feature-list text-white-gray">
-                <li><span class="lnr lnr-checkmark-circle"></span> 200000 and more active users</li>
-                <li><span class="lnr lnr-checkmark-circle"></span> 1000+ Mining Servers</li>
-                <li><span class="lnr lnr-checkmark-circle"></span> 12 BTC Daily Rotating</li>
-                <li><span class="lnr lnr-checkmark-circle"></span> 24/7 Fast Support</li>
+                <li><span class="lnr lnr-checkmark-circle bl"></span> 200000 and more active users</li>
+                <li><span class="lnr lnr-checkmark-circle bl"></span> 1000+ Mining Servers</li>
+                <li><span class="lnr lnr-checkmark-circle bl"></span> 12 BTC Daily Rotating</li>
+                <li><span class="lnr lnr-checkmark-circle bl"></span> 24/7 Fast Support</li>
             </ul>
         </div>
         <div class="col-lg-5">
@@ -256,7 +258,6 @@
     </div>
 
 </div>
-
 <!---Footer box-->
 
 
