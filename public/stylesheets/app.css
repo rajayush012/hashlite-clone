@@ -270,3 +270,14 @@ color: #d6d6d6 !important;
     font-weight: 800;
     color: #1ecfca;
 }
+
+.fs9rem{
+    font-size:.9rem; 
+}
+
+.mb40{
+    margin-bottom: 40px !important;
+}
+.mb10{
+    margin-bottom: 10px !important;
+}
