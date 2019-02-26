@@ -119,6 +119,7 @@ body{
     }
 
 .btn {
+        margin-right: 10px; 
         overflow: hidden;
         position: relative;
         z-index: 1;
@@ -257,7 +258,7 @@ color: #d6d6d6 !important;
 }
 
 .text-dark-grey{
-    color: rgba(70, 73, 92, 0.5) !important;
+    color: rgba(70, 73, 92, 0.25) linear !important;
 }
 
 .card-header{
@@ -281,3 +282,50 @@ color: #d6d6d6 !important;
 .mb10{
     margin-bottom: 10px !important;
 }
+
+.nav-link{
+    -webkit-transition: color 0.25s linear;
+    -moz-transition:    color 0.25s linear;
+    -ms-transition:     color 0.25s linear;
+    -o-transition:      color 0.25s linear;
+    transition:         color 0.25s linear;
+}
+
+.nav-link:hover{
+    color: #1ecfca !important;
+}
+ .btn:hover{
+    background-color: #1ecfca; 
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.28);
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+ }
+
+ .bl{
+     color: #1ecfca !important;
+     font-weight: bolder !important;
+ }
+
+ .disp{
+    font-size: 3.4rem;
+    letter-spacing: -2px;
+    font-weight: 300 !important;
+ }
+
+ .blk{
+     margin-top: 25px ;
+    content: "";
+    width: 40px;
+    height: 1px;
+    background-color:  lightgrey !important;
+    position: relative;
+    left: 50%;
+    margin-left: -20px;
+    margin-bottom: 20px;
+    bottom: 0px;
+ }
+
+ .mb70{
+     margin-bottom: 70px;
+ }
