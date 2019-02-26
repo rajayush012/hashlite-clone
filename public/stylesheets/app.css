@@ -330,6 +330,42 @@ color: #d6d6d6 !important;
      margin-bottom: 70px;
  }
 
+  .jumbo1{
+     margin-top: 90px;
+     margin-bottom:90px;
+     padding: 200px;
+     height: 640px;
+     opacity: 0.8;
+     background: -webkit-linear-gradient(left, #344880, #1ecfca) !important;
+     z-index: 0;
+  }
+  .jumb{
+      color:white !important;
+    
+  }
+  .mb40{
+     margin-bottom:40px;
+     font-weight: 300 !important;
+     
+     
+  }
+  .jumbog{
+    
+    background: -webkit-linear-gradient(left, #344880, #1ecfca) !important;
+  }
+  .jarallax {
+    
+      position: relative;
+    
+      background-size: cover;
+   
+      background-repeat: no-repeat;
+
+      background-position: 50% 50%;
+   
+    }
+    
+
  .gradient-faded-terms{
     color: #818181;
     font-family: "Lato", sans-serif;
@@ -343,5 +379,3 @@ color: #d6d6d6 !important;
     margin: 0px;
  }
 
-
- 
