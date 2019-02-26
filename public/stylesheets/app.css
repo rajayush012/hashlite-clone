@@ -329,6 +329,7 @@ color: #d6d6d6 !important;
  .mb70{
      margin-bottom: 70px;
  }
+
   .jumbo1{
      margin-top: 90px;
      margin-bottom:90px;
@@ -364,3 +365,17 @@ color: #d6d6d6 !important;
    
     }
     
+
+ .gradient-faded-terms{
+    color: #818181;
+    font-family: "Lato", sans-serif;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.9;
+ }
+
+ .main-content-terms{
+    background: -webkit-linear-gradient(bottom, #fbfbfb, #fff);
+    margin: 0px;
+ }
+
