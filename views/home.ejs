@@ -1,13 +1,12 @@
 <% include partials/header %>
 
 
-
 <!---landing screen-->
 
 <div id="particles-home" class="fs bg-primary-dark">
     <div class="cont text-center">
-        <div class="tab container">
-            <div class="ht">Bitcoin Cloud Mining System</div>
+        <div class="tab pt-2 container">
+            <div class="pt-5 mt-5 ht">Bitcoin Cloud Mining System</div>
             <p class="lead">
                 <h5 id="lowH">The Best Earning Bitcoin Mining System.</h5>
             </p>
@@ -15,8 +14,8 @@
             <p class="lead ltext"><span style="font-weight: 400 !important;">LIMITED OFFER:</span> REGISTER NOW AND GET
                 50 GH/S FOR FREE! INVITE</p>
             <p class="lead lm ltext">YOUR FRIENDS, GET 2 GH/S AND 25% OF THEIR MINING HASHPOWER.</p>
-            <a class="btn btn-primary btn-lg mt-5 mb-9" href="#" role="button">Explore Features</a>
-            <a class="btn sup btn-primary btn-lg mt-5 mb-9" href="#" role="button"><img class="ico mr-1" src="icons/play-button.png">SIGN-UP</a>
+            <a class="btn btn-primary btn-lg mt-5 mb-9" href="#features" role="button">Explore Features</a>
+            <a class="btn sup btn-primary btn-lg mt-5 mb-9" href="/register" role="button"><img class="ico mr-1" src="icons/play-button.png">SIGN-UP</a>
         </div>
     </div>
 </div>
@@ -33,7 +32,8 @@
 -->
 
 <!---Features-->
-<div id="features" class="container ft pt-5 pb-5">
+<span id="features">
+<div class="container ft pt-5 pb-5">
     <h6 class="text-center text-muted tsmall">200.000+ REASONS TO CHOOSE US</h6>
     <h3 class="text-center section-title mb-5">Why choose us?</h3>
     <div class="row my-5 pt-5">
@@ -92,11 +92,11 @@
 
     </div>
 </div>
-
+</span>
 
 
 <!---Pricing-->
-<div class="greybg">
+<div id="pricing" class="greybg">
 
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
 
@@ -128,7 +128,7 @@
                                 <li class="liI1"><img class="ico" src="icons/check.png"><b>Monthly Profit:</b>-0.03586BTC</li>
 
                             </ul>
-                            <button type="button" class="btn btn-lg btn-primary">SIGN-UP</button>
+                            <a href="/register" class="btn btn-lg btn-primary">SIGN-UP</a>
                         </div>
                     </div>
                 </div>
@@ -157,8 +157,7 @@
 
 
                             </ul>
-                            <button type="button" class="btn btn-lg btn-primary">SIGN-UP</button>
-                        </div>
+                            <a href="/register" class="btn btn-lg btn-primary">SIGN-UP</a>                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -182,8 +181,7 @@
                                     ~0.671021
                                     BTC</li>
                             </ul>
-                            <button type="button" class="btn btn-lg btn-primary">SIGN-UP</button>
-                        </div>
+                            <a href="/register" class="btn btn-lg btn-primary">SIGN-UP</a>                        </div>
                     </div>
                 </div>
             </div>
@@ -193,7 +191,7 @@
     </div>
 </div>
 
-<div class="container">
+<div id="faqs" class="container">
     <h6 class="text-center text-muted tsmall pb-5  mt-5 pt-5">OUR SUPPORT TEAM HELP YOU 24/7</h6>
     <h1 class="text-center cardhead pb-5 mb40">Frequently asked questions
             <div class="text-center blk"></div>
@@ -238,7 +236,7 @@
 <!---Req quotes-->
 
 
-<div class="container pb-5">
+<div id="contactus" class="container pb-5">
     <h6 class="text-center text-muted tsmall my-5 pt-5">FEEL FREE TO ASK ANY QUESTIONS</h6>
     <h1 class="text-center cardhead">Request a quote</h1>
     <div class="text-center blk mb-5"></div>
@@ -258,7 +256,7 @@
                 <div class="form-group">
                     <textarea class="form-control" rows="4" placeholder="Message" name="message"></textarea>
                 </div>
-                <button class="btn btn-primary btn-block">Send My Message</button>
+                <a href="mailto:raj.ayush012@gmailc.com" class="btn btn-primary btn-block">Send My Message</a>
             </form>
         </div>
     </div>
@@ -266,15 +264,12 @@
 </div>
 
 
-<div class="jumbotron jumbotron-fluid jumbo1" style='background-image: url("https://www.hashlite.io/images/bgcomp.jpg");'>
-     
+<div class="jumbotron jumbo2 jumbotron-fluid jumbo1" >
     <div class="container text-center">
       <h2 class="display-4 text-center jumb mb40">You're working with a <br>geniune company</h2>
       <button type="button" class="btn btn-lg btn-primary mt-5 mb-9">SIGN-UP</button>
     </div>
 </div>
-
-
 
 
 <% include partials/footer %>

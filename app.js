@@ -9,8 +9,13 @@ app.get("/", (req,res)=>{
     res.render('home.ejs');
 });
 
-app.get("/terms",(req,res)=>{
-    res.render("terms.ejs");
+app.get("/test", (req,res)=>{
+    res.render('index.ejs');
+});
+
+
+app.get("/signin",(req,res)=>{
+    res.render("signin.ejs");
 });
 
 app.get("/privacy",(req,res)=>{

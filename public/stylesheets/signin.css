@@ -1,0 +1,27 @@
+img{
+    width: 200px;
+    height: 45px;
+}
+
+body{
+    background-color: #ECF0F5 !important;
+}
+
+.form-control{
+    height: 33px !important;
+    margin-bottom: 15px !important; 
+}
+
+#inputPassword::placeholder{
+   color: #D1D6D8;
+   font-size: 13px;
+}
+
+#inputEmail::placeholder{
+    color: #D1D6D8;
+    font-size: 13px;
+ }
+
+ h5{
+     color: #4D627B !important;
+ }
