@@ -1,0 +1,23 @@
+.form-control::placeholder{
+    color: #D1D6D8;
+    font-size: 13px;
+}
+
+.form-signin{
+    max-width: 530px !important;
+}
+
+.form-control{
+    border: 1px solid #ccc !important;
+}
+
+.text-sm{
+    font-size: 13px !important;
+}
+.btn{
+    background-color: #294f75;
+    border-color: #25476a !important;
+}
+a{    color: #69757b !important;
+
+}

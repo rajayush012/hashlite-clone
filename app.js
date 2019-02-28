@@ -9,8 +9,8 @@ app.get("/", (req,res)=>{
     res.render('home.ejs');
 });
 
-app.get("/test", (req,res)=>{
-    res.render('index.ejs');
+app.get("/terms", (req,res)=>{
+    res.render('terms.ejs');
 });
 
 
@@ -24,4 +24,8 @@ app.get("/privacy",(req,res)=>{
 
 app.listen(port, ()=>{
     console.log("Server is up on port: "+port);
+});
+
+app.get("/register",(req,res)=>{
+    res.render("signup.ejs");
 });
