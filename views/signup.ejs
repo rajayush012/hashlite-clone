@@ -37,33 +37,37 @@
     <link href="https://getbootstrap.com/docs/4.3/examples/sign-in/signin.css" rel="stylesheet">
   </head>
   <body class="text-center">
-    <form class="form-signin">
+    <form class="form-signin" action="/register" method="POST">
   <img class="logo mb-4" src="hashlite-logo-color.png" alt="">
   <h5 class="h4 font-weight-normal">Create a new account</h5>
-  
+  <% if(errorMes){ %>
+    <div class="alert alert-danger" role="alert">
+        <%= errorMes %>
+      </div>
+  <% } %>
   <div class="text-muted mb-4 text-small mb-3" style="font-size:15px;">Come join the HashLite Community! Let's set up your account.</div>
   <div class="form-row">
         <div class="col-sm-6">
-          <input type="text" class="form-control" placeholder="Fullname">
+          <input type="text" class="form-control" placeholder="Fullname" name="fullName">
         </div>
         <div class="col-sm-6">
-          <input type="password" class="form-control" placeholder="Password">
+          <input type="password" class="form-control" placeholder="Password" name="password">
         </div>
       </div>
       <div class="form-row">
             <div class="col-sm-6">
-              <input type="text" class="form-control" placeholder="E-mail">
+              <input type="text" class="form-control" placeholder="E-mail" name="username">
             </div>
             <div class="col-sm-6">
-              <input type="password" class="form-control" placeholder="Confirm password">
+              <input type="password" class="form-control" placeholder="Confirm password" name="cpassword">
             </div>
           </div>
     <label>
-      <input type="checkbox" value="remember-me"> <span class="text-sm mb-3" > I agree with the <b><a href="/terms"> Terms and Conditions</span></a></b>
+      <input type="checkbox" required> <span class="text-sm mb-3" > I agree with the <b><a href="/terms"> Terms and Conditions</span></a></b>
     </label>
   </div>
   <button class="btn my-3 btn-lg btn-primary btn-block" type="submit">Register</button>
-  <div href="#" class="mt-5 mb-3 text-muted" style="font-size: 13px;">Already have an account? <a href="/signin"><b>Sign in</a></b></div>
+  <div href="/signin" class="mt-5 mb-3 text-muted" style="font-size: 13px;">Already have an account? <a href="/signin"><b>Sign in</a></b></div>
 </form>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

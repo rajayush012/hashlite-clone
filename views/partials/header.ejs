@@ -31,17 +31,27 @@
                     </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link tw" data-scroll="features" href="#pricing">Pricing</a>
+                        <a class="nav-link tw" data-scroll="pricing" href="#pricing">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link tw" data-scroll="features" href="#faqs">Faqs</a>
+                        <a class="nav-link tw" data-scroll="faqs" href="#faqs">Faqs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link tw" data-scroll="features" href="#contactus">Contact Us</a>
+                        <a class="nav-link tw" data-scroll="contacus" href="#contactus">Contact Us</a>
                     </li>
+                    <% if(!currentUser){ %>
                     <li class="nav-item">
-                        <a class="nav-link tw" data-scroll="features" target="_blank" href="/signin">SIGN-IN</a>
+                        <a class="nav-link tw" href="/signin">SIGN-IN</a>
                     </li>
+                    <% }else{ %>
+                        <li class="nav-item">
+                                <a class="nav-link tw" href="#">Signed in as <%=currentUser.fullName%></a>
+                              </li>
+                        <li class="nav-item">
+
+                                <a class="nav-link tw"  href="/logout">Logout</a>
+                            </li>
+                    <% } %>
                 </ul>
             </div>
         </div>

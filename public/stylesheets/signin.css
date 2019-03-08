@@ -25,3 +25,12 @@ body{
  h5{
      color: #4D627B !important;
  }
+
+ .btn{
+     background-color: #294f75 !important;
+     border-color:  #294f75 !important;
+ }
+
+ .btn:hover{
+    background-color: #1C3550 !important;
+ }
